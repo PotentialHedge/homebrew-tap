@@ -1,6 +1,6 @@
 cask "tinymuesli" do
-  version "0.3.0"
-  sha256 "98338693b815521300d7bb2328c0fdfbda0f5d69ee3f446739a7d3d738572f09"
+  version "0.4.0"
+  sha256 "4eee2f4bc6e8ff74fc5d1f1563e262ca936fc737602b390a465289a7a9fe812c"
 
   url "https://github.com/PotentialHedge/tinymuesli/releases/download/v#{version}/tinyMuesli-#{version}.zip"
   name "tinyMuesli"
@@ -17,6 +17,7 @@ cask "tinymuesli" do
   depends_on macos: :tahoe
 
   app "tinyMuesli.app"
+  binary "#{appdir}/tinyMuesli.app/Contents/MacOS/tinyMuesli", target: "tinymuesli"
 
   zap trash: [
     "~/.config/tinymuesli",
