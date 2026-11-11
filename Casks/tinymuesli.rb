@@ -1,6 +1,6 @@
 cask "tinymuesli" do
-  version "0.5.0"
-  sha256 "012bea95e87e44e00732255af6b4479724f5672dea991fd411b0678195094321"
+  version "0.6.0"
+  sha256 "5733e0ed4870aa19e51364dd2b43c81c1429ef26248729972c665eac0844cf66"
 
   url "https://github.com/PotentialHedge/tinymuesli/releases/download/v#{version}/tinyMuesli-#{version}.zip"
   name "tinyMuesli"
